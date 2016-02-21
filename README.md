@@ -5,7 +5,7 @@ This system is developed in Visual Studio 2015, and the database used in the pro
 
 1. Open solution on Visual Studio 2015.
 2. Build solution to download all dependencies.
-3. The Migration is configured with AutomaticMigrationsEnabled, so, the auto generate the database on the first running.
+3. The Migration is configured with AutomaticMigrationsEnabled and this auto generate the database on the first running.
 4. There's a connection string in the file web.config, if necessary, you can change the user or connection.
 
 Any problems or doubts, send us a e-mail.
