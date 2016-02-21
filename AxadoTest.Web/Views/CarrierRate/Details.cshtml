@@ -1,0 +1,42 @@
+﻿@model CarrierRateViewModel
+
+@{
+    ViewBag.Title = "Carriers Rating Details";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <h4>Carrier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Carrier.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carrier.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
